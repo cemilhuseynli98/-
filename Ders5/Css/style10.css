@@ -1,0 +1,37 @@
+#body1 {
+  background-color: #EDEDED;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 0.6rem;
+  opacity: 0.6;
+}
+
+img {
+  height: 210px;
+  margin-top: 30px;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  background-color: #23A6F0;
+  padding: 9px 20px 9px 20px;
+  color: white;
+  font-size: 0.5rem;
+}
+
+.main1_div1 {
+  width: 650px;
+  height: 310px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.main1_div1_list3 :nth-child(2n) {
+  margin-top: -12px;
+}/*# sourceMappingURL=style10.css.map */

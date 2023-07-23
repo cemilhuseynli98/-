@@ -1,0 +1,53 @@
+#body1{
+    background-color:#EDEDED ; 
+ }
+
+ .main1{
+    &_div1{
+width: 750px;
+height: 320px; 
+background-color: white;
+text-align: center;
+padding-top: 40px;
+&_form1{
+   
+    &_head1{
+
+margin-bottom: 20px;
+    }
+    &_text1{
+       opacity: 0.5;
+       margin-bottom: 25px;
+    }
+    &_text2{
+        opacity: 0.5;
+        font-size: 0.6rem;
+    }
+    &_in1{
+         cursor: pointer;
+        outline: none;
+ border: none;
+ border-radius: 3px;
+ background-color: #EDEDED ;
+ padding: 10px;
+ font-size: 0.6rem;
+ width: 250px;
+ margin-bottom: 5px;
+    }
+    &_in2{
+         cursor: pointer;
+        border: none;
+        border-radius: 3px;
+        background-color: #23A6F0 ;
+        padding: 10px;
+        font-size: 0.6rem;
+        width: 270px;
+        color: white ;
+        opacity: 0.8;
+        margin-bottom: 15px;
+    }
+}
+    
+
+}
+}

@@ -1,0 +1,29 @@
+#body1 {
+    background-color: #EDEDED;
+  }
+  li {
+    list-style: none;
+  }  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  p{
+    font-size: 0.6rem;
+    opacity: 0.9;
+  }
+  .esas1{
+    &_div1{
+        width: 600px;
+        height: 200px;
+        background-color: #252B42; 
+        display: flex;
+       margin-bottom: -10px;
+    }
+    &_div2{
+        width: 600px;
+        height: 20px;
+        background-color: white;
+        text-align: center;
+    }
+  }
